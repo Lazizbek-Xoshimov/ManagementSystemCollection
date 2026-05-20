@@ -8,4 +8,7 @@ public class Student : Person
     {
         grade = Grade;
     }
+
+    public string ShowProperties() =>
+        $"Name: {Name}\nGrade: {Grade}";
 }

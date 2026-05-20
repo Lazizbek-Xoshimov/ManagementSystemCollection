@@ -8,4 +8,7 @@ public class Teacher : Person
     {
         Subject = subject;
     }
+
+    public string ShowProperties() => 
+        $"Name: {Name}\nSubject: {Subject}";
 }
