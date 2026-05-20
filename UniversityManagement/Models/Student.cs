@@ -6,7 +6,7 @@ public class Student : Person
 
     public Student(string name, int grade) : base(name)
     {
-        grade = Grade;
+        Grade = grade;
     }
 
     public string ShowProperties() =>
