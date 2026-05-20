@@ -14,6 +14,14 @@ public class Program
         dog.Eat();
         dog.Bark();
 
+        Console.Write($"Enter {dog.Name}'s age: ");
+        int dogAge = int.Parse(Console.ReadLine());
+
+        dog.SetAge(dogAge);
+        dog.ShowAge();
+
+        Console.WriteLine();
+
         Cat cat = new Cat();
 
         Console.Write("Enter your cat's name: ");
