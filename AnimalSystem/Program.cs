@@ -8,7 +8,7 @@ public class Program
     {
         Dog dog = new Dog();
         
-        Console.Write("Kuchugingizning ismini kiriting: ");
+        Console.Write("Enter your dog's name: ");
         dog.Name = Console.ReadLine();
 
         dog.Eat();
@@ -16,7 +16,7 @@ public class Program
 
         Cat cat = new Cat();
 
-        Console.Write("Mushugingizning ismini kiriting: ");
+        Console.Write("Enter your cat's name: ");
         cat.Name = Console.ReadLine();
 
         cat.Eat();
