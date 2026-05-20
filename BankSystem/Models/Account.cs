@@ -28,6 +28,6 @@ public class Account
 
     public void ShowBalance()
     {
-        Console.WriteLine($"Your balance: {_balance}");
+        Console.WriteLine($"Your balance: ${_balance}");
     }
 }

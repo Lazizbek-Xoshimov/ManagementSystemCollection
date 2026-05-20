@@ -4,7 +4,7 @@ public class CreditAccount : Account
 {
     public void TakeCredit(decimal amount)
     {
-        if (amount < Balance)
+        if (Balance < amount)
             Console.WriteLine("Not enough balance.");
         else
             Balance -= amount;
